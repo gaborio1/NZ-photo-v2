@@ -340,7 +340,7 @@ input[type=text] {
     z-index: 1;
     position: absolute;
     /* top: 200px; */
-    bottom: 75px;
+    bottom: 45px;
 
 
     
@@ -348,6 +348,7 @@ input[type=text] {
     width: 100%;
     height: fit-content;
     height: 125px;
+    height: 135px;
     margin: auto;
 
    
@@ -889,7 +890,7 @@ div.first-design-concept {
     flex-direction: column;
     /* align-items: flex-start; */
     justify-content: center;
-    justify-content: space-around;
+    justify-content: space-between;
     /* top: -400px; */
     width: 100%;
     height: inherit;
@@ -919,8 +920,10 @@ div.first-design-concept {
 
     /* margin-top:90px; */
 
-    /* border-top: 1px solid rgba(255, 255, 255, 0.759); */
-    /* border-bottom: 1px solid rgba(255, 255, 255, 0.759); */
+    margin-top: 45px;
+
+    /* border-top: 1px solid rgba(255, 255, 255, 0.759);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.759); */
 }
 
 
@@ -932,8 +935,6 @@ div.first-design-concept {
 
     display: flex;
     /* justify-content: flex-end; */
-
-    margin-bottom: 2rem;
 
     /* border: 1px solid orange; */
 }
@@ -988,7 +989,11 @@ div.first-design-concept {
 
 /* CLEAR DIV-2 */
 .footer-content--full-width.full-width-2 {
+
+    height: 90px;
      background-image: linear-gradient(to right,rgba(0, 0, 0, 0.355), rgba(0, 0, 0, 0.149));
+
+    margin-bottom: 45px;
 
      /* border-top: 1px solid black;
     border-bottom: 1px solid black; */
