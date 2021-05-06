@@ -32,6 +32,9 @@ function myFunction() {
 //   slides[current].style.opacity = 1;
 // }, 4000);
 
+
+// SEARCH BAR
+
 const defaultButton = document.getElementById("default-btn");
 const submitButton = document.getElementById("submit-btn");
 const closeButton = document.getElementById("close-btn");
@@ -59,3 +62,23 @@ closeButton.addEventListener("click", function() {
     
     searchInput.style.width = "0px";
 })
+
+
+
+// CATEGORY GALLERY
+
+const imagesTest = ["1", "2", "3", "4", "5", "6", "7"];
+
+const galleryContainer = document.querySelector(".gallery-container");
+
+const createDivs = () => {
+  for(let image of imagesTest) {
+    console.log("hello");
+    const imgDiv = document.createElement("div");
+    imgDiv.className = "portrait-img-container";
+    imgDiv.innerText = image;
+    galleryContainer.appendChild(imgDiv);
+  }
+}
+
+createDivs();
