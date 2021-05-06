@@ -421,26 +421,39 @@ h2.photography {
     /* background: rgba(0, 0, 0, 0.204); */
     /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0.211), rgba(0, 0, 0, 0)); */
     /* border-left: 15px solid rgba(0, 0, 0, 0.218); */
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     margin-top: 100px;
+}
+
+.category-title-container {
+    margin: 45px 0px 90px 0px;
+    /* border: 3px solid cyan; */
+}
+
+.category-title-container h1 {
+    font-size: 60px;
+    font-weight: 400;
 }
 
 .gallery-container {
     /* display: flex; */
     /* float: left; */
     width: 1200px;
-    border: 3px solid red;
+    /* border: 3px solid red; */
 }
 
 .portrait-img-container {
     width: 378px;
     /* width: 33.33%; */
-    height: 378px;
+    height: 567px;
     float: left;
     margin: 10px;
     /* margin: 4.1%; */
-    border: 3px solid green;
+    background-size: cover;
+    /* border: 3px solid green; */
 }
+
+
 
 
 /* ========== FOOTER ========== */
