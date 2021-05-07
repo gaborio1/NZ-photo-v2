@@ -404,12 +404,12 @@ h2.photography {
     width: var(--max-width);
     height: fit-content;
 
-    border: 3px solid red;
+    /* border: 3px solid red; */
 }
 
 .main-coloumn {
     /* z-index: -1; */
-    width: 90%;
+    width: 1400px;
     max-width: var(--main-content-1400);
 
     display: flex;
@@ -417,7 +417,7 @@ h2.photography {
     align-items: center;
     justify-content: space-around;
 
-    border: 3px solid orange;
+    /* border: 3px solid rgb(0, 106, 255); */
     /* background: rgba(0, 0, 0, 0.204); */
     /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0.211), rgba(0, 0, 0, 0)); */
     /* border-left: 15px solid rgba(0, 0, 0, 0.218); */
@@ -425,7 +425,64 @@ h2.photography {
     margin-top: 100px;
 }
 
+.about-container {
+    width: 90%;
+    height: 600px;
 
+    display: flex;
+    justify-content: start;
+
+    /* border: 3px solid rgb(98, 197, 45); */
+}
+
+.about-enzee-container {
+    margin: 45px 0px 90px 0px;
+    /* border: 3px solid tomato; */
+}
+
+h1.about-enzee {
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.about-image-container {
+    width: 400px;
+    /* height: 600px; */
+
+    background-image: url(./images/about/about-1.jpg);
+    background-size: cover;
+
+    /* border: 3px solid goldenrod; */
+}
+
+
+.about-text-container {
+    width: 700px;
+    /* height: 600px; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    margin-left: 70px;
+
+    /* border: 3px solid goldenrod; */
+}
+
+.about-text-row {
+    width: 95%;
+    /* height: 105px; */
+
+    padding-left: 1rem;
+    /* border: 3px solid fuchsia; */
+    border-left: 1px solid grey;
+    
+}
+
+.about-text__title {
+    margin: 0px 0px 8px 0px;
+}
 
 
 
