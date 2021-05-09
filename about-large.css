@@ -284,11 +284,11 @@ nav {
     border: none;
     outline: none;
     color: rgba(255, 255, 255, 0.753);
-    padding: 17px 20px 8px 20px;
+    padding: 15px 20px 10px 20px;
     letter-spacing: .04rem;
     font-weight: 300;
     /* padding: 16px 16px; */
-    border-bottom: 2px solid transparent;
+    border-bottom: 1px solid transparent;
 
     text-transform: capitalize;
     background-color: inherit;
@@ -297,7 +297,7 @@ nav {
   }
 
   .dropdown .dropbtn:hover {
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid white;
     /* border-bottom: 2px solid rgb(255, 166, 0); */
     color: white;
   }
