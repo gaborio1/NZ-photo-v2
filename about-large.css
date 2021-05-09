@@ -251,7 +251,12 @@ nav {
     /* color: rgb(255, 166, 0); */
 }
     
-
+/* SELECTED NAVLINK */
+.select-able.active {
+    /* background: rgba(128, 255, 0, 0.361); */
+    border-bottom: 1px solid white;
+}
+    
 
 
 

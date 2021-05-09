@@ -63,7 +63,19 @@ closeButton.addEventListener("click", function() {
     searchInput.style.width = "0px";
 })
 
+// ACTIVE NAV-LINK
 
+// Add active class to the current button (highlight it)
+// var header = document.getElementById("myDIV");
+var btns = document.getElementsByClassName("select-able");
+for (var i = 0; i < btns.length; i++) {
+  console.log(btns[i]);
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
 
 // CATEGORY GALLERY
 

@@ -250,7 +250,11 @@ nav {
     color: white;
     /* color: rgb(255, 166, 0); */
 }
-    
+/*     
+.select-able.active {
+    background: rgba(128, 255, 0, 0.361);
+} */
+
 
 /* DROPDOWN TEST */
 /* 
@@ -290,6 +294,12 @@ nav {
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+  }
+
+  /* SELECTED DROPDOWN NAVLINK */
+  .dropdown .dropbtn.active {
+    /* background: rgba(128, 255, 0, 0.361); */
+    border-bottom: 1px solid white;
   }
 
   .dropdown .dropbtn:hover {
