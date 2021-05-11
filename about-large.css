@@ -567,7 +567,7 @@ h1.about-enzee {
     padding-left: 1rem;
     /* border: 3px solid fuchsia; */
     /* border-left: 1px solid rgba(0, 0, 0, 0.724); */
-    border-left: 2px solid rgba(0, 0, 0, 0.272);;
+    border-left: 2px solid rgba(0, 0, 0, 0.272);
     
 }
 
@@ -579,7 +579,6 @@ h1.about-enzee {
 .about-text__text {
     font-size: 15px;
     font-weight: 400;
-    color:  rgba(0, 0, 0, 0.724);
     color: rgba(0, 0, 0, 0.724);
 }
 

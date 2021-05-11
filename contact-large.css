@@ -515,15 +515,15 @@ h2.photography {
     margin-top: 100px;
 }
 
-.about-container {
+.contact-container {
     width: 90%;
     height: 600px;
 
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: space-around;
 
-    border: 3px solid rgb(98, 197, 45);
+    /* border: 3px solid rgb(98, 197, 45); */
 }
 
 .about-enzee-container {
@@ -536,18 +536,18 @@ h1.about-enzee {
     font-weight: 400;
 }
 
-.about-image-container {
+.contact-image-container {
     width: 400px;
     /* height: 600px; */
 
     background-image: url(./images/about/about-1.jpg);
     background-size: cover;
 
-    border: 3px solid goldenrod;
+    /* border: 3px solid goldenrod; */
 }
 
 
-.about-text-container {
+.contact-text-container {
     width: 700px;
     /* height: 600px; */
 
@@ -556,31 +556,38 @@ h1.about-enzee {
     align-items: center;
     justify-content: space-around;
 
-    margin-left: 70px;
+    /* margin-left: 70px; */
 
-    border: 3px solid goldenrod;
+    /* border: 3px solid goldenrod; */
 }
 
-.about-text-row {
+.contact-text-row {
+    width: 100%;
+    display: flex;
+
+    /* border: 3px solid aquamarine; */
+}
+
+.contact-text-block {
     width: 95%;
     /* height: 105px; */
 
-    padding-left: 1rem;
-    border: 3px solid fuchsia;
-    border-left: 1px solid grey;
-    
+    padding: 10px 10px 10px 15px;
+
+    /* border: 3px solid fuchsia; */
+    border-left: 2px solid rgba(0, 0, 0, 0.272);
 }
 
 
-.about-text__title {
+.contact-text__title {
     margin: 0px 0px 8px 0px;
     text-transform: uppercase;
 }
 
-.about-text__text {
+.contact-text__text {
     font-size: 15px;
     font-weight: 400;
-    color:  rgba(0, 0, 0, 0.724);
+    /* color:  rgba(173, 32, 32, 0.724); */
     color: rgba(0, 0, 0, 0.724);
 }
 
